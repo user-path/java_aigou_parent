@@ -1,0 +1,18 @@
+server:
+  port: 1299
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7100/eureka
+  instance:
+    prefer-ip-address: true
+spring:
+  application:
+    name: aigou-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/user-path/java_server_provide_config.git  #git文件地址
+          username: 1173238297@qq.com
+          password: zp1173238297

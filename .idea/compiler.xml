@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="aigou_code_util" />
+        <module name="aigou_config_server_1299" />
+        <module name="aigou_eureka_server_7100" />
+        <module name="aigou_interface" />
+        <module name="aigou_service_provide_login_8100" />
+        <module name="aigou_service_provide_user_8001" />
+        <module name="aigou_zuul_client_9527" />
+      </profile>
+    </annotationProcessing>
+  </component>
+</project>
