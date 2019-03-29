@@ -15,7 +15,8 @@ public class LoginController {
         if(user!=null && !StringUtils.isEmpty(user.getUsername()) && !StringUtils.isEmpty(user.getPassword()) ){
             /*判断登陆成功*/
             if("admin".equals(user.getUsername()) && "admin".equals(user.getPassword())){
-                return AjaxResult.me().setMsg("登陆成功");
+
+                return AjaxResult.me().setMsg("登陆成功").setObject(user);
             }else {
                 return AjaxResult.me().setSuccess(false).setMsg("登陆失败");
             }
