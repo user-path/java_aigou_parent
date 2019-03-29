@@ -5,3 +5,10 @@ spring:
       label: master #分支
       name: server_provide_application #github上面名称
       profile: dev #环境
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///aigou
+    username: root
+    password: 123456
+mybatis-plus:
+  type-aliases-package: com.cn.aigou.domain
